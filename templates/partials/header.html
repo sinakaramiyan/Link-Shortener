@@ -1,0 +1,25 @@
+{% load static %}
+<nav
+    class="w-[90%] max-w-[1280px] fixed mt-4 mx-auto left-[50%] -translate-x-[50%] rounded-xl backdrop-blur-lg bg-white/30 shadow-lg border border-gray-200 z-50">
+    <div class="container mx-auto px-4">
+        <div class="flex items-center py-2 gap-4">
+            {# Logo #}
+            <div class="flex items-center">
+                <a href="/" class="font-bold text-gray-800 flex items-center gap-2">
+                    <img class="w-8 h-8" src="{% static 'images/logo.png' %}" />
+                    <span
+                        class="text-base md:text-lg font-semibold text-gray-800">TinyLink</span>
+                </a>
+            </div>
+
+            <div class="flex items-center space-x-1">
+                <a href='{% url "UserLinks" %}'
+                    class="px-3 py-2 text-gray-700 hover:text-blue-500 transition-colors relative group">
+                    <span>Manage Links</span>
+                    <span
+                        class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,36 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <meta name="{% block meta_name %}{% endblock meta_name %}" content="{% block meta_content %}{% endblock meta_content %}">
+      
+        <title>{% block title %}{% endblock title %}</title>
+        
+        <link rel="icon" data-width="64" data-height="64" href="{% static 'images/logo.png' %}" type="image/x-icon">
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        {% block link %}
+        {% block extra_link %}{% endblock extra_link %}
+        {% endblock link %}
+
+    </head>
+    <body>  
+        <header>
+            {% include "partials/header.html" %}
+        </header>
+        <main class="min-h-full">
+            {% block content %}{% endblock content %} 
+        </main>
+        <footer class="w-[90%] max-w-[1280px] bottom-0  my-4 py-4 mx-auto rounded-xl backdrop-blur-lg bg-gray-400 shadow-lg border border-gray-200 dark:border-gray-700/50 z-50">
+            {% include "partials/footer.html" %}
+        </footer>
+        
+        {% block extra_js %}{% endblock extra_js %}
+    </body>
+
+</html>
