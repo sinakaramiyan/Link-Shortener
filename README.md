@@ -2,8 +2,8 @@
 
 A modern, scalable URL shortener built with Django that allows you to create short, memorable links from long URLs. Perfect for sharing links on social media, in messages, or anywhere space is limited.<br/>
 
-<img width="1631" height="858" alt="project_run" style="border: 2px solid #ccc; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"  src="https://github.com/user-attachments/assets/f3a25f9a-f09a-4910-87ed-ffc4bca18dd6" />
-<img width="1627" height="862" alt="project_run1" style="border: 2px solid #ccc; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"  src="https://github.com/user-attachments/assets/5e026046-580b-42f4-9e4e-cd2200358949" />
+<img width="1631" height="858" alt="project_run" style="border: 2px solid #d1d9e0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"  src="https://github.com/user-attachments/assets/f3a25f9a-f09a-4910-87ed-ffc4bca18dd6" />
+<img width="1627" height="862" alt="project_run1" style="border: 2px solid #d1d9e0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"  src="https://github.com/user-attachments/assets/5e026046-580b-42f4-9e4e-cd2200358949" />
 
 
 ## 🚀 How to Get and Run the Project
