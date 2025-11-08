@@ -1,6 +1,8 @@
 # TinyLink - URL Shortener
 
-A modern, scalable URL shortener built with Django that allows you to create short, memorable links from long URLs. Perfect for sharing links on social media, in messages, or anywhere space is limited.
+A modern, scalable URL shortener built with Django that allows you to create short, memorable links from long URLs. Perfect for sharing links on social media, in messages, or anywhere space is limited.<br/>
+
+<img width="3250" height="858" alt="merge_run_images" src="https://github.com/user-attachments/assets/07325d5a-e818-4c92-9937-b8088b52bb87" />
 
 ## 🚀 How to Get and Run the Project
 
