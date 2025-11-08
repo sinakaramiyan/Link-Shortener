@@ -2,7 +2,9 @@
 
 A modern, scalable URL shortener built with Django that allows you to create short, memorable links from long URLs. Perfect for sharing links on social media, in messages, or anywhere space is limited.<br/>
 
-<img width="3250" height="858" alt="merge_run_images" src="https://github.com/user-attachments/assets/07325d5a-e818-4c92-9937-b8088b52bb87" />
+<img width="1631" height="858" alt="project_run" src="https://github.com/user-attachments/assets/f3a25f9a-f09a-4910-87ed-ffc4bca18dd6" />
+<img width="1627" height="862" alt="project_run1" src="https://github.com/user-attachments/assets/5e026046-580b-42f4-9e4e-cd2200358949" />
+
 
 ## 🚀 How to Get and Run the Project
 
